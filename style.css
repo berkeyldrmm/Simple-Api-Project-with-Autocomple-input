@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color:black;
+    z-index: 0;
+    height: 100%;
+}
+
+.input-group{
+    display: flex;
+}
+
+#or{
+    background-color: transparent;
+    color:crimson;
+}
+
+#suggestions{
+    display: none;
+    list-style: none;
+    background-color: aliceblue;
+    width:max-content;
+    position: absolute;
+    z-index: 12;
+    max-height: 400px;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+#suggestions li{
+    font-size: 16px;
+    /* height: 25px; */
+}
+
+hr{
+    margin: 0;
+}
+
+#suggestions li:hover{
+    background-color: aqua;
+    color:white;
+}
+
+#inputdiv{
+    flex-grow: 5;
+}
+
+#inputdiv2{
+    flex-grow: 4;
+}
+
+#errordiv{
+    display:none;
+    width:100%;
+    position: absolute;
+    bottom:10px;
+}
+
+.bg-danger{
+    height: max-content;
+}
